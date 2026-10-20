@@ -97,6 +97,9 @@ tools/
 
 ## 工具的几个要点
 
+> 这套 PE 导入/序号解析的工具已抽成独立包，可单独安装：
+> [`pe-ordinals`](https://github.com/XiaoXinDaWang1337/pe-ordinals) — `pip install pe-ordinals`
+
 ### `pe_tools.py` —— 序号导入
 
 Windows 的 `ws2_32.lib` 把 `send` / `sendto` / `socket` 这类核心函数

@@ -1,5 +1,7 @@
 # Apex Legends: Transport Protection and the Limits of Passive Observation
 
+中文版 · [English](README.en.md)
+
 一个关于 **Apex Legends 客户端传输层保护机制**的逆向研究记录，
 以及"一个局域网网关能从中观察到什么、不能观察到什么"的实测边界。
 
@@ -80,6 +82,7 @@ docs/
   04-negative-results.md     七条路径的实测关闭记录
   05-methodology-postmortem.md  三次证据跳跃的复盘 ← 最有价值的一篇
   06-plaintext-telemetry.md  明文遥测里的会话时序
+  07-boundary-analysis.md    为什么只剩内核态与硬件两条路
 
 tools/
   pe_tools.py          PE 导入表解析（含序号导入）、IAT 交叉引用、特征码扫描
